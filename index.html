@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Results Summary</title>
+
+  <link rel="stylesheet" href="./atoms/atoms.css">
+  <link rel="stylesheet" href="./molecules/molecules.css">
+  <link rel="stylesheet" href="./organisms/organisms.css">
+</head>
+
+<body>
+  <main class="page-wrapper">
+    <div class="organism-results-card">
+
+      <section class="molecule-result-panel">
+        <p class="atom-result-label">Your Result</p>
+
+        <div class="atom-score-circle">
+          <span id="score-display" class="atom-score-number">0</span>
+          <span class="atom-score-label">of 100</span>
+        </div>
+
+        <h1 class="atom-heading">Great</h1>
+        <p class="atom-body-text">
+          You scored higher than 65% of the people.
+        </p>
+      </section>
+
+      <section class="molecule-summary-panel">
+        <h2 class="atom-section-title">Summary</h2>
+        <ul id="categories-list" class="molecule-categories-list"></ul>
+        <button class="atom-btn">Continue</button>
+      </section>
+
+    </div>
+  </main>
+
+  <script src="./main.js"></script>
+</body>
+</html>
